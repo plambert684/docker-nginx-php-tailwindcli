@@ -10,4 +10,6 @@ Note : The tailwind config that I provided is the full version
 
 3: Start docker</br>
 docker-compose up -d 
+
+Don't forget to rebuild the css in your client to see the changes</br>
  

@@ -1,7 +1,7 @@
 # nginx-php-tailwindcli
 
 1: Set up repo</br>
-git clone git@github.com:plambert684/nginx-php-tailwindcli.git
+git clone git@github.com:plambert684/docker-nginx-php-tailwindcli.git
 
 2: Set up tailwindcss environment (for client)</br>
 npm install -D tailwindcss

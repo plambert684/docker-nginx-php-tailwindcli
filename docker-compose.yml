@@ -1,0 +1,18 @@
+version: "3.9"
+name: nginx-php-tailwindcli
+services:
+  nginx:
+    container_name: tailwind-nginx
+    build: ./tailwind-nginx-container/
+    ports:
+      - 8081:80
+
+    volumes:
+      - ./:/var/www/html/
+  php:
+    container_name: php
+    build: ./php-container/
+    expose:
+      - 9000
+    volumes:
+      - ./:/var/www/html/
